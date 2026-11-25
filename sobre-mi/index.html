@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre mí • Centro de Psicología Luca</title>
+<meta name="description" content="Soy Mariana Luca, Psicóloga General Sanitaria con una amplia experiencia en acompañamiento psicológico profesional">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFF9F4}
+a{color:#3B2245;text-decoration:none}a:hover{color:#87409C}
+.pt{font-family:'Patua One',Georgia,serif;font-weight:400}
+.nav-w{color:#FFF9F4;font-size:15px;font-weight:500;padding:12px 2px}
+.nav-w:hover{color:#F8D3B4}
+.b-cream{display:inline-flex;align-items:center;gap:10px;min-height:54px;padding:0 30px;border-radius:999px;background:#FFF9F4;color:#3B2245;font-weight:600;font-size:15px}
+.b-cream:hover{background:#FFFFFF;color:#87409C}
+.b-line-w{display:inline-flex;align-items:center;min-height:54px;padding:0 28px;border-radius:999px;border:1.5px solid rgba(255,249,244,0.75);color:#FFF9F4;font-weight:600;font-size:15px}
+.b-line-w:hover{background:rgba(255,249,244,0.14);color:#FFF9F4}
+.b-violet{display:inline-flex;align-items:center;gap:10px;min-height:54px;padding:0 30px;border-radius:999px;background:#87409C;color:#FFFFFF;font-weight:600;font-size:15px}
+.b-violet:hover{background:#6E2F82;color:#FFFFFF}
+.wall a{color:#3B2245}.wall a:nth-child(4n+3){color:#87409C}
+.wall a:hover{color:#B869CD}
+.agenda{display:grid;grid-template-columns:120px minmax(0,1fr) auto;gap:24px;align-items:center;padding:26px 8px;border-bottom:1px solid #E6D9EA;color:#3B2245}
+.agenda:hover{background:#F4EEF7;color:#3B2245}
+.card{background:#FFFFFF;border:1px solid #EFE4F1;border-radius:28px;padding:34px 32px;display:flex;flex-direction:column;gap:14px}
+.vermas{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:#87409C;min-height:44px}
+.vermas:hover{color:#3B2245}
+.lift{transition:transform .35s ease, box-shadow .35s ease}
+.lift:hover{transform:translateY(-6px);box-shadow:0 40px 70px -30px rgba(59,34,69,.35)}
+@keyframes drift{0%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(-14px,-10px) rotate(-4deg)}100%{transform:translate(0,0) rotate(0deg)}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.drift{animation:drift 9s ease-in-out infinite}
+.floaty{animation:floaty 7s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){.drift,.floaty{animation:none}}
+.glass{background:rgba(255,249,244,0.16);border:1px solid rgba(255,249,244,0.35);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+</style>
+
+<style>
+body{margin:0;background:#FFF9F4;font-family:'Inter',system-ui,sans-serif;color:#3B2245}
+*{box-sizing:border-box}
+.wrap{max-width:1320px;margin:0 auto;padding-left:40px;padding-right:40px}
+@media(max-width:700px){.wrap{padding-left:22px;padding-right:22px}}
+.nav{position:relative;display:flex;align-items:center;gap:2px 20px;flex-wrap:wrap}
+.nav>div{position:relative}
+.nav .sub{display:none;position:absolute;top:100%;left:-12px;z-index:50;min-width:300px;background:#FFFFFF;border-radius:18px;padding:10px;box-shadow:0 30px 60px -20px rgba(59,34,69,.35)}
+.nav>div:hover .sub,.nav>div:focus-within .sub{display:flex;flex-direction:column}
+.nav .sub a{color:#3B2245;font-size:14px;padding:10px 12px;border-radius:10px;min-height:40px;display:flex;align-items:center}
+.nav .sub a:hover{background:#F4EEF7;color:#87409C}
+.mnav{display:none}
+@media(max-width:1080px){.nav{display:none}.mnav{display:block}}
+.mnav summary{list-style:none;cursor:pointer;color:#FFF9F4;font-weight:600;min-height:44px;display:flex;align-items:center;gap:8px}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav .panel{position:absolute;left:22px;right:22px;z-index:60;background:#FFFFFF;border-radius:20px;padding:16px;margin-top:8px;display:flex;flex-direction:column;box-shadow:0 30px 60px -20px rgba(59,34,69,.4)}
+.mnav .panel a{color:#3B2245;padding:10px 6px;border-bottom:1px solid #F1E8F3}
+.mnav .panel a.s{padding-left:22px;font-size:14px;color:#5B5560}
+.prose p{margin:0 0 18px;font-size:18px;line-height:1.75;color:#4E4752}
+.chk{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.chk li{display:flex;gap:14px;align-items:flex-start;font-size:17px;line-height:1.55}
+.chk li:before{content:"";flex:none;width:22px;height:22px;margin-top:2px;border-radius:50%;background:#F4EEF7;box-shadow:inset 0 0 0 6px #F4EEF7, inset 0 0 0 11px #B869CD}
+.card2{background:#FFFFFF;border:1px solid #F1E8F3;border-radius:28px;padding:32px;box-shadow:0 30px 60px -45px rgba(59,34,69,.45)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#87409C}
+.toc a{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#FFFFFF;border:1px solid #E6D9EA;color:#3B2245;font-size:14px;font-weight:600}
+.toc a:hover{background:#3B2245;color:#FFF9F4}
+section[id]{scroll-margin-top:24px}
+.field{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
+.field input,.field textarea{font:inherit;font-weight:400;font-size:16px;padding:14px 16px;border:1px solid #E1D2E7;border-radius:14px;background:#FFFFFF;color:#3B2245}
+</style>
+</head>
+<body>
+<header style="background:#3B2245;color:#FFF9F4;position:relative;z-index:40">
+  <div class="wrap" style="padding-top:10px;padding-bottom:10px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px;font-size:13px;color:#E9D9EF;border-bottom:1px solid rgba(255,249,244,.14)">
+    <span>C/ Arzobispo Morcillo, 40 · Zaragoza</span>
+    <span style="display:flex;gap:18px;align-items:center"><a href="tel:+34656948100" style="color:#FFF9F4">656 948 100</a><a href="../pedir-cita/" style="color:#3B2245;background:#F8D3B4;border-radius:999px;padding:6px 14px;font-weight:700;font-size:12px;letter-spacing:.04em">PIDE TU CITA</a></span>
+  </div>
+  <div class="wrap" style="padding-top:18px;padding-bottom:18px;display:flex;align-items:center;justify-content:space-between;gap:16px">
+    <a href="../" style="display:flex;align-items:center;gap:12px;color:#FFF9F4"><svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="#FFF9F4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 19 Q32 13 57 19"></path><circle cx="32" cy="12.5" r="1.8" fill="#FFF9F4"></circle><path d="M32 15 V58"></path><path d="M25 58 H39"></path><path d="M18 24 C18 40 24 45 32 45 C40 45 46 40 46 24"></path><path d="M3 16 C1 12 5 8 8 10 C9 6 14 6 15 10 C18 10 18 15 15 16 Z" fill="none"></path><path d="M8.5 10.5 C8.5 13 11 13 11 15.5"></path><path d="M57 17 C52 13.5 51 10.5 53 8.6 C54.6 7.2 56.4 7.8 57 9.4 C57.6 7.8 59.4 7.2 61 8.6 C63 10.5 62 13.5 57 17 Z" fill="#F8D3B4" stroke="#F8D3B4"></path></svg><span style="display:flex;flex-direction:column;line-height:1.05"><span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#E3D2EA">Centro de Psicología</span><span class="pt" style="font-size:30px">Luca</span></span></a>
+    <nav class="nav" aria-label="Principal">
+      <a class="nav-w" href="../sobre-mi/">Sobre mí</a>
+      <a class="nav-w" href="../equipo/">Equipo</a>
+      <a class="nav-w" href="../patologias/">Patologías</a>
+      <div><a class="nav-w" href="../terapias/">Terapias ▾</a><div class="sub"><a href="../terapias/#emdr">EMDR</a><a href="../terapias/#terapia-dialectico-conductual">Terapia dialéctico-conductual</a><a href="../terapias/#terapia-enfocada-en-emociones">Terapia focalizada en las emociones</a><a href="../terapias/#terapia-aceptacion-compromiso">Terapia de aceptación y compromiso</a><a href="../terapias/#acompanamiento-duelo-zaragoza">Acompañamiento en procesos de duelo</a><a href="../terapias/#terapia-de-activacion-conductual">Terapia de activación conductual</a><a href="../terapias/#mindfulness-y-psicoterapia">Mindfulness y psicoterapia</a></div></div>
+      <a class="nav-w" href="../terapia-individual/">Individual</a>
+      <div><a class="nav-w" href="../grupos-y-talleres/">Grupos y talleres ▾</a><div class="sub"><a href="../terapia-de-grupo/entrenamiento-habilidades-dbt/">Terapia grupal de entrenamiento en habilidades DBT</a><a href="../terapia-de-grupo/trauma-complejo/">Terapia grupal para trauma complejo</a><a href="../terapia-de-grupo/activacion-conductual-depresion/">Terapia grupal de activación conductual para personas con depresión</a><a href="../talleres/regulacion-emocional/">Taller de regulación emocional</a><a href="../talleres/duelo/">Taller de duelo</a><a href="../talleres/mindfulness/">Taller de mindfulness</a></div></div>
+      <a class="nav-w" href="../blog/">Recursos psicológicos</a>
+      <a class="nav-w" href="../contacto/">Contacto</a>
+    </nav>
+    <details class="mnav"><summary aria-label="Abrir menú">Menú <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></summary>
+      <div class="panel"><a href="../">Inicio</a><a href="../sobre-mi/">Sobre mí</a><a href="../equipo/">Equipo</a><a href="../patologias/">Patologías</a><a href="../terapias/">Terapias</a><a class="s" href="../terapias/#emdr">EMDR</a><a class="s" href="../terapias/#terapia-dialectico-conductual">Terapia dialéctico-conductual</a><a class="s" href="../terapias/#terapia-enfocada-en-emociones">Terapia focalizada en las emociones</a><a class="s" href="../terapias/#terapia-aceptacion-compromiso">Terapia de aceptación y compromiso</a><a class="s" href="../terapias/#acompanamiento-duelo-zaragoza">Acompañamiento en procesos de duelo</a><a class="s" href="../terapias/#terapia-de-activacion-conductual">Terapia de activación conductual</a><a class="s" href="../terapias/#mindfulness-y-psicoterapia">Mindfulness y psicoterapia</a><a href="../terapia-individual/">Individual</a><a href="../grupos-y-talleres/">Grupos y talleres</a><a class="s" href="../terapia-de-grupo/entrenamiento-habilidades-dbt/">Terapia grupal de entrenamiento en habilidades DBT</a><a class="s" href="../terapia-de-grupo/trauma-complejo/">Terapia grupal para trauma complejo</a><a class="s" href="../terapia-de-grupo/activacion-conductual-depresion/">Terapia grupal de activación conductual para personas con depresión</a><a class="s" href="../talleres/regulacion-emocional/">Taller de regulación emocional</a><a class="s" href="../talleres/duelo/">Taller de duelo</a><a class="s" href="../talleres/mindfulness/">Taller de mindfulness</a><a href="../blog/">Recursos psicológicos</a><a href="../contacto/">Contacto</a><a href="../pedir-cita/" style="font-weight:700;color:#87409C">Pide tu cita</a></div>
+    </details>
+  </div>
+</header>
+<main>
+<section style="position:relative;overflow:hidden;background:linear-gradient(160deg,#43255A 0%,#74408E 38%,#B26CB2 70%,#E59C93 100%);color:#FFF9F4">
+  <div class="wrap" style="padding-top:90px;padding-bottom:90px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:56px;align-items:center">
+    <div style="display:flex;flex-direction:column;gap:22px;max-width:780px">
+      <span class="glass" style="align-self:flex-start;border-radius:999px;padding:8px 16px;font-size:13px;font-weight:600">Sobre mí</span>
+      <h1 class="pt" style="margin:0;font-size:clamp(40px,5vw,72px);line-height:1.03">Soy Mariana Luca</h1>
+      <p style="margin:0;font-size:20px;line-height:1.6;color:#FBEFF4">Psicóloga General Sanitaria, colegiada número A-03369</p>
+    </div>
+    <div style="position:relative;border-radius:220px 220px 32px 32px;overflow:hidden;aspect-ratio:4/5;max-height:520px;box-shadow:0 50px 90px -40px rgba(43,22,55,.7);border:6px solid rgba(255,249,244,.3)"><img src="../img/mariana.jpg" alt="Mariana Luca, psicóloga en Zaragoza" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+  </div>
+</section><section><div class="wrap prose" style="padding-top:110px;padding-bottom:40px;max-width:900px">
+<p style="font-size:22px;line-height:1.6;color:#3B2245" class="pt">Mi recorrido en la psicología comenzó en 2013, y desde entonces he orientado mi especialización hacia las terapias de tercera generación o contextuales.</p>
+<p>Tengo un firme compromiso con un desarrollo profesional continuo para ofrecer un servicio de calidad a mis pacientes.</p></div></section>
+<section><div class="wrap" style="padding-top:20px;padding-bottom:110px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:20px;align-items:start">
+<div class="card2" style="display:flex;flex-direction:column;gap:18px"><h3 class="pt" style="margin:0;font-size:24px;color:#87409C">Formación académica</h3><ul class="chk"><li>Graduada en Psicología por la UNED. Mención Clínica</li><li>Máster universitario en Psicología General Sanitaria. Universidad Alfonso X el Sabio</li><li>Máster universitario en Terapias de Tercera Generación. Universidad Internacional de Valencia</li><li>Máster de actualización en Intervención Psicológica y Salud Mental. UDIMA</li><li>Máster universitario en Psicopatología, Intervención Clínica y Salud. UNED</li><li>Experta universitaria en Trastornos de Personalidad. UDIMA</li><li>Experta universitaria en Violencia de Género. Universidad de Nebrija</li><li>Experta universitaria en Mindfulness. UDIMA</li></ul></div><div class="card2" style="display:flex;flex-direction:column;gap:18px"><h3 class="pt" style="margin:0;font-size:24px;color:#87409C">Formación especializada</h3><ul class="chk"><li>Acreditación como terapeuta EMDR. Nivel Clínico (EMDR PRACTI, EMDR EUROP)</li><li>Seminario especializado «Ataques de pánico con EMDR»</li><li>Seminario especializado «La muerte y el duelo a través del desarrollo evolutivo, desde la perspectiva EMDR»</li><li>Formación «Casos complejos con EMDR»</li><li>Formación «Trauma, apego y disociación». UDIMA</li><li>Formación «Entrenamiento en habilidades DBT (Terapia Dialéctico-Conductual)». Asociación Española de DBT</li><li>Protocolo EMDR-PRECI para experiencias adversas prolongadas</li><li>Terapia grupal EMDR en pacientes con trauma complejo</li><li>Especialista en Duelo</li></ul></div><div class="card2" style="display:flex;flex-direction:column;gap:18px"><h3 class="pt" style="margin:0;font-size:24px;color:#87409C">Asociaciones y docencia</h3><ul class="chk"><li>Miembro de DBT Europe</li><li>Miembro de la Asociación Española de DBT</li><li>Miembro de la Asociación Española de EMDR</li><li>Profesora de la Universidad de Zaragoza</li></ul></div>
+</div></section><section style="background:#3B2245;color:#FFF9F4">
+  <div class="wrap" style="padding-top:80px;padding-bottom:80px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px">
+    <div style="display:flex;flex-direction:column;gap:12px;max-width:760px"><h2 class="pt" style="margin:0;font-size:clamp(28px,3vw,42px);line-height:1.15">Ofrezco una amplia experiencia en acompañamiento psicológico profesional</h2><p style="margin:0;font-size:18px;color:#E3D2EA">Puedes contar conmigo para compartir tus preocupaciones con tranquilidad</p></div>
+    <a class="b-cream lift" href="../contacto/">Contacta ahora</a>
+  </div>
+</section><section style="background:#F4EEF7"><div class="wrap" style="padding-top:110px;padding-bottom:110px;display:flex;flex-direction:column;gap:44px">
+  <h2 class="pt" style="margin:0;font-size:clamp(32px,3.6vw,50px);line-height:1.08;max-width:860px">Así es la metodología que utilizo en nuestras sesiones, para que te sientas a gusto y sepas qué esperar</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px"><div class="card2 lift" style="display:flex;flex-direction:column;gap:10px"><span class="pt" style="width:48px;height:48px;border-radius:16px;background:#EADCF0;display:flex;align-items:center;justify-content:center;font-size:20px">1</span><h3 class="pt" style="margin:0;font-size:24px;line-height:1.2">El enfoque de las sesiones estará siempre centrado en ti</h3><p style="margin:0;font-size:16px;line-height:1.65;color:#5B5560">Esto significa que estas se adaptarán a tus necesidades y preocupaciones específicas. Comenzaremos con una conversación abierta donde podrás compartir las cuestiones que te preocupan. Además, definiremos objetivos claros que te gustaría alcanzar. De esta forma, podremos medir tu progreso y mantener el foco en lo que es más importante para ti.</p></div><div class="card2 lift" style="display:flex;flex-direction:column;gap:10px"><span class="pt" style="width:48px;height:48px;border-radius:16px;background:#FBE0CF;display:flex;align-items:center;justify-content:center;font-size:20px">2</span><h3 class="pt" style="margin:0;font-size:24px;line-height:1.2">Mi forma de trabajar se centra en las terapias de tercera generación o contextuales</h3><p style="margin:0;font-size:16px;line-height:1.65;color:#5B5560">Con estas terapias, intentaremos entender cómo te relacionas con tus pensamientos y emociones, en lugar de simplemente tratar de cambiarlos. Esto nos permitirá trabajar juntos en tus pensamientos, emociones y comportamientos de una manera que te ayude a encontrar soluciones y mejorar tu bienestar.</p></div><div class="card2 lift" style="display:flex;flex-direction:column;gap:10px"><span class="pt" style="width:48px;height:48px;border-radius:16px;background:#EADCF0;display:flex;align-items:center;justify-content:center;font-size:20px">3</span><h3 class="pt" style="margin:0;font-size:24px;line-height:1.2">Crearemos un ambiente seguro y de confianza</h3><p style="margin:0;font-size:16px;line-height:1.65;color:#5B5560">En mi consulta de psicología puedes hablar libremente, sin miedo a ser juzgado. La confidencialidad es una prioridad para mí, y todo lo que compartas se mantendrá en privado.</p></div><div class="card2 lift" style="display:flex;flex-direction:column;gap:10px"><span class="pt" style="width:48px;height:48px;border-radius:16px;background:#FBE0CF;display:flex;align-items:center;justify-content:center;font-size:20px">4</span><h3 class="pt" style="margin:0;font-size:24px;line-height:1.2">Te ofrezco material adicional para trabajar dentro y fuera de la consulta</h3><p style="margin:0;font-size:16px;line-height:1.65;color:#5B5560">Además, podrás realizar tests de autoevaluación para medir tus avances. Gracias a este material, podrás continuar trabajando en casa y alcanzar nuestros objetivos lo antes posible.</p></div><div class="card2 lift" style="display:flex;flex-direction:column;gap:10px"><span class="pt" style="width:48px;height:48px;border-radius:16px;background:#EADCF0;display:flex;align-items:center;justify-content:center;font-size:20px">5</span><h3 class="pt" style="margin:0;font-size:24px;line-height:1.2">Colaboro con profesionales de psiquiatría para ofrecerte una atención completa</h3><p style="margin:0;font-size:16px;line-height:1.65;color:#5B5560">En mi consulta te proporciono herramientas para afrontar tus dificultades diarias. Pero si precisas una atención psiquiátrica adicional, te facilito complementar tu tratamiento con un médico especialista en psiquiatría. Colaboraremos juntos en la evaluación, asesoramiento y desarrollo de tu caso para atender íntegramente tus necesidades.</p></div></div>
+</div></section>
+</main>
+<footer style="background:#2E1A37;color:#D7C7DD">
+  <div class="wrap" style="padding-top:60px;padding-bottom:36px;display:flex;flex-direction:column;gap:36px">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:28px">
+      <a href="../" style="display:flex;align-items:center;gap:12px;color:#FFF9F4"><svg width="40" height="40" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="#FFF9F4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 19 Q32 13 57 19"></path><circle cx="32" cy="12.5" r="1.8" fill="#FFF9F4"></circle><path d="M32 15 V58"></path><path d="M25 58 H39"></path><path d="M18 24 C18 40 24 45 32 45 C40 45 46 40 46 24"></path><path d="M3 16 C1 12 5 8 8 10 C9 6 14 6 15 10 C18 10 18 15 15 16 Z" fill="none"></path><path d="M8.5 10.5 C8.5 13 11 13 11 15.5"></path><path d="M57 17 C52 13.5 51 10.5 53 8.6 C54.6 7.2 56.4 7.8 57 9.4 C57.6 7.8 59.4 7.2 61 8.6 C63 10.5 62 13.5 57 17 Z" fill="#F8D3B4" stroke="#F8D3B4"></path></svg><span class="pt" style="font-size:26px">Centro de Psicología Luca</span></a>
+      <div style="display:flex;flex-direction:column;gap:8px;font-size:15px"><span>C/ Arzobispo Morcillo, 40, Pral. D, 50006 Zaragoza</span><a href="tel:+34656948100" style="color:#FFF9F4">656 948 100</a><a href="mailto:info@lucapsicologia.com" style="color:#FFF9F4">info@lucapsicologia.com</a></div>
+      <div style="display:flex;flex-direction:column;gap:8px;font-size:15px"><a href="../terapias/" style="color:#FFF9F4">Terapias</a><a href="../grupos-y-talleres/" style="color:#FFF9F4">Grupos y talleres</a><a href="../equipo/" style="color:#FFF9F4">Equipo</a><a href="../blog/" style="color:#FFF9F4">Recursos psicológicos</a></div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px;padding-top:22px;border-top:1px solid #4A2F57">
+      <span>© Centro de Psicología Luca · Centro sanitario registrado</span>
+      <span style="display:flex;gap:20px;flex-wrap:wrap"><a href="../aviso-legal/" style="color:#D7C7DD">Aviso legal</a><a href="../politica-de-privacidad/" style="color:#D7C7DD">Política de privacidad</a><a href="../politica-de-cookies-ue/" style="color:#D7C7DD">Política de cookies</a></span>
+    </div>
+  </div>
+</footer>
+<a href="https://wa.me/34656948100" aria-label="Escribir por WhatsApp" style="position:fixed;right:20px;bottom:20px;z-index:70;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -10px rgba(0,0,0,.4)"><svg width="28" height="28" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"></path></svg></a>
+</body>
+</html>

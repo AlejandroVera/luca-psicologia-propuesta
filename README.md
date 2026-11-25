@@ -3,6 +3,8 @@
 Propuesta de rebranding y rediseño web para [lucapsicologia.com](https://lucapsicologia.com/), el centro de psicología de Mariana Luca en Zaragoza.
 
 - `index.html`: nueva home.
+- Una carpeta por página, con las **mismas URLs que la web actual** (`/sobre-mi/`, `/equipo/`, `/patologias/`, `/terapias/`, `/terapia-individual/`, `/grupos-y-talleres/`, `/terapia-de-grupo/…`, `/talleres/…`, `/psicoterapia-adolescentes/`, `/psicoterapia-adultos-zaragoza/`, `/blog/`, `/contacto/`, `/pedir-cita/` y las páginas legales).
+- Las 7 terapias se han agrupado en `/terapias/`, cada una en su sección. Sus URLs antiguas (`/emdr/`, `/terapia-dialectico-conductual/`, `/terapia-enfocada-en-emociones/`, `/terapia-aceptacion-compromiso/`, `/acompanamiento-duelo-zaragoza/`, `/terapia-de-activacion-conductual/`, `/mindfulness-y-psicoterapia/`) se conservan y redirigen a su sección. En WordPress conviene sustituirlas por redirecciones 301.
 - `marca.html`: hoja de identidad (logotipo, color, tipografía).
 - `favicon.svg`: símbolo de la marca.
 
